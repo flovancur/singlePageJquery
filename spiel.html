@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Brettspiel</title>
+    <meta charset="utf-8   " />
+    <link href="spiel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="brett">
+      <h1 id="header"></h1>
+      <table id="table"></table>
+      <form id="login" method="post" action="/">
+        <label style="font-size: x-large" for="name"
+          >Please enter your name:</label
+        >
+        <br />
+        <input
+          style="font-size: x-large; text-align: center"
+          type="text"
+          id="name"
+          name="name"
+        />
+        <br />
+        <input style="font-size: x-large" type="submit" value="Lets play" />
+      </form>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    <script src="spiel.js"></script>
+  </body>
+</html>

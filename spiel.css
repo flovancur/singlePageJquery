@@ -1,0 +1,68 @@
+body,
+html {
+    height: 90%;
+}
+body {
+    text-align: center;
+    display: flex;
+    font-family: Roboto, Ari, "Nimbus Sans", serif;
+}
+
+h1 {
+    margin: 25px 0px 0px 0px;
+}
+
+#brett {
+    border: 15px solid;
+    border-radius: 20px;
+    background: saddlebrown;
+    border-radius: 10px;
+    width: 500px;
+    flex-shrink: 0;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#highscore {
+    border: 10px solid;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 60%;
+    overflow: auto;
+    margin: auto;
+}
+
+select {
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table {
+    margin: auto;
+    border-spacing: 20px;
+}
+
+#table td {
+    border: solid 1px;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+#login {
+    padding-top: 100px;
+}
+
+button {
+    margin-top: 20px;
+}
+input {
+    margin-top: 20px;
+    border-radius: 10px;
+}
